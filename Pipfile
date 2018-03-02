@@ -1,0 +1,19 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+sphinx = ">=1.4"
+ipykernel = "*"
+nbsphinx = "*"
+django = "==1.11.10"
+-u = "*"
+--upgrade = "*"
+
+
+[dev-packages]
+
